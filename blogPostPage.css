@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.article {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.qa-section h2 {
+    margin-top: 1.5em;
+}
+
+.qa-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+blockquote {
+    font-size: 1.5em;
+    color: #555;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+.subscribe {
+    background: #f0f8ff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.subscribe input {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 300px;
+}
+
+.subscribe button {
+    padding: 0.5em 1em;
+    background: #333;
+    color: white;
+    border: none;
+}
+
+.recipes {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.recipe-cards img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
